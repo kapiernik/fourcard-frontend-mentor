@@ -76,6 +76,11 @@ body{
             font-size: 12px;
             letter-spacing: 0.6px;
             line-height: 1.8;
+            padding-bottom: 40px;
+        }
+        &__icon{
+            align-self: flex-end;
+            margin-right: 5px;
         }
     }
     &__supervisor{
