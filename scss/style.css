@@ -23,6 +23,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   background-color: #fafafa;
+  padding-bottom: 100px;
 }
 
 .header {
@@ -60,11 +61,10 @@ body {
 
 .cards .card {
   background-color: #fff;
-  padding: 25px;
+  padding: 25px 30px;
   width: 345px;
   height: 250px;
   border-radius: 5px;
-  border-top: #000 solid 4px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,7 +96,7 @@ body {
 .cards .card__icon {
   -ms-flex-item-align: end;
       align-self: flex-end;
-  margin-right: 5px;
+  margin-right: 3px;
 }
 
 .cards__supervisor {
@@ -109,6 +109,8 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  padding-left: 25px !important;
+  border-top: #45d3d3 solid 4px;
 }
 
 .cards__team-builder {
@@ -118,6 +120,7 @@ body {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2 / 3;
+  border-top: #ea5353 solid 4px;
 }
 
 .cards__karma {
@@ -127,6 +130,7 @@ body {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2 / 3;
+  border-top: #fcaf4a solid 4px;
 }
 
 .cards__calculator {
@@ -139,5 +143,7 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  padding-left: 35px !important;
+  border-top: #549ef2 solid 4px;
 }
 /*# sourceMappingURL=style.css.map */
