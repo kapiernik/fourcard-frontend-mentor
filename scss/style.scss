@@ -32,7 +32,7 @@ body{
 
 .header{
     padding-top: 76px;
-    padding-bottom: 75px;
+    padding-bottom: 68px;
     @extend %flex-col-c;
     &__title h1{
         font-size: 36px;
@@ -58,9 +58,25 @@ body{
     gap: 30px 30px;
     .card{
         background-color: #fff;
-        padding: 20px;
+        padding: 25px;
         width: 345px;
         height: 250px;
+        border-radius: 5px;
+        border-top: #000 solid 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        &__title{
+            color: $dark-blue;
+            font-size: 17px;
+            padding-bottom: 10px;
+        }
+        &__subtitle{
+            color: $gray-blue;
+            font-size: 12px;
+            letter-spacing: 0.6px;
+            line-height: 1.8;
+        }
     }
     &__supervisor{
         grid-row: 1 / 3;
