@@ -75,6 +75,8 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  -webkit-box-shadow: 0 5px 20px 5px #e6e6e6;
+          box-shadow: 0 5px 20px 5px #e6e6e6;
 }
 
 .cards .card__title {

@@ -66,6 +66,7 @@ body{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        box-shadow: 0 5px 20px 5px rgb(230, 230, 230);
         &__title{
             color: $dark-blue;
             font-size: 17px;
